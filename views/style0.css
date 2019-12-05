@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-size: 18px; */
+  /* color: #f5f6fa; */
+  font-family: 'Alata', sans-serif;
+}
+
+body {
+  background-image: radial-gradient( circle farthest-corner at 18.7% 37.8%,  rgba(250,250,250,1) 0%, rgba(225,234,238,1) 90% );
+}
+
+header {
+  margin: 0 20px;
+}
+
+#title {
+  margin-left: 20px;
+  letter-spacing: 1px;
+  font-family: 'Fredoka One', cursive;
+  border-bottom: none;
+}
+
+li {
+  line-height: 50px;
+  display: inline-block;
+  transition: all 100ms;
+  margin: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms;
+  color: inherit;
+}
+
+nav {
+  width: 70%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+li:hover {
+}
+
+p {
+  display: inline-block;
+}
+
+.carton {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px #dcdde1;
+}
+
+.un:hover {
+  background-color: #fed330;
+}
+
+.deux:hover {
+  background-color: #59d358 /*#009432*/ /*#4cd137*/ /*#A3CB38*/;
+}
+
+.trois:hover {
+  background-color: #12CBC4;
+}
+
+.quatre:hover {
+  background-color: #F79F1F;
+}
+
+.cinq:hover {
+  background-color: #EA2027;
+}
+
+.six:hover {
+  background-color: #be2edd;
+}
+
+.sept:hover {
+  background-color: #55efc4;
+}
+
+.huit:hover {
+  background-color: #fab1a0;
+}
+
+.carton:hover {
+  color: white;
+}
+
+#student {
+  width: inherit;
+  margin: auto;
+}
+
+.first, .second {
+  display: inline-block;
+}
+
+.first {
+  width: 65vw;
+}
+
+.second {
+  width: 30vw;
+}
