@@ -111,3 +111,10 @@ p {
 .second {
   width: 30vw;
 }
+
+
+
+#map {
+  width: 500px;
+  height: 300px;
+ }

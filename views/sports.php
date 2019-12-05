@@ -16,6 +16,36 @@ include_once 'header.php';
   <a href="https://www.mulhouse.fr/bouger-sortir/sport/pratiques-sportives-ouvertes/">Faire du sport à Mulhouse</a>
 
 
+
+
+
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css' type='text/css' />
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+          <div id='map'></div>
+
+        <script>
+          mapboxgl.accessToken = 'pk.eyJ1Ijoibmljb251aXRkZWxpbmZvIiwiYSI6ImNrM3RiMjN6aTAwenkzbnBzNTM2eTVuNWwifQ.CIJrzI0F2tlctfZSQ-w8uA';
+          var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [7.335888, 47.750839],
+            zoom: 13
+          });
+
+        map.addControl(new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+        }));
+      </script>
+
+      </body>
+    </html>
+  </iframe>
+
+
 <?php
 include_once 'footer.php';
 ?>
