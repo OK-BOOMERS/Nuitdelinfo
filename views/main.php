@@ -10,7 +10,7 @@
         <li><a href="">vie pratique</a></li>
         <li><a href="">santé / bien-être</a></li>
         <li><a href="">culture</a></li>
-        <li><a href="">sports</a></li>
+        <li><a href="views/sports.php">sports</a></li>
         <li><a href="">vie associative</a></li>
       </nav>
     </header>
