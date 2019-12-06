@@ -4,13 +4,13 @@
       <!-- <em id="title">Au Hasard.</em> -->
       <li id="title">Au Hasard.</li>
       <nav>
-        <li><a href="">budget</a></li>
-        <li><a href="">logement</a></li>
-        <li><a href="">transports</a></li>
+        <li><a href="budget.php">budget</a></li>
+        <li><a href="logement.php">logement</a></li>
+        <li><a href="transport.php">transports</a></li>
         <li><a href="">vie pratique</a></li>
-        <li><a href="">santé / bien-être</a></li>
+        <li><a href="santeBienEtre.php">santé / bien-être</a></li>
         <li><a href="">culture</a></li>
-        <li><a href="views/sports.php">sports</a></li>
+        <li><a href="sports.php">sports</a></li>
         <li><a href="">vie associative</a></li>
       </nav>
     </header>
