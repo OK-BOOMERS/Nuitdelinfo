@@ -1,37 +1,41 @@
+
 <?php
 include_once 'header.php';
-?>
-<p>Pour souffler entre les révisions, sortir entre amis, apprendre. Plein de bonnes excuses pour faire passer le temps </p>
-    <main>
-      <div class="first">
-	<br>
-	<br>
+ ?>
 
-        <div class="tourisme">
-          <p>Office de tourisme, temple des événements régionnaux pour bouger </p>
-          <div class="tourisme_link">
-		<a href="https://www.tourisme-mulhouse.com/">Office de Tourisme Mulhouse			</a> 	
-<br>
-		<a href="https://www.visitstrasbourg.fr/">Office de Tourisme Strasbourg</a> 
-          </div>
-        </div>
+<main class="info">
+  <div class="f">
 
-	<br>
-	<br>
+  <h1>Culture</h1>
+  <p>Pour souffler entre les révisions, sortir entre amis, apprendre. Plein de bonnes excuses pour faire passer le temps </p>
+  <div class="">
+    <h2>Office de tourisme</h2>
+    <div class="">
+      <a href="https://www.tourisme-mulhouse.com/">Mulhouse</a>
+    </div>
 
-        <div class="tourisme">
-          <p>Cinéma, petit prix pour les étudiants et possibilité de travailler son anglais</p>
-          <div class="tourisme_link">
-		<a href="https://kinepolis.fr/cinemas/kinepolis-mulhouse/infos">Kinépolis</a>
-          </div>
-        </div>
 
-      </div>
+  </div>
+  <div class="">
+    <h2>Activitées principales</h2>
+    <div class="">
+      <h4>Les cinémas</h4>
+      <a href="https://kinepolis.fr/cinemas/kinepolis-mulhouse/infos"> Kinepolis Mulhouse</a>
+      <a href="https://www.ouigo.com/"> Le Palace Mulhouse  </a>
+      <h4>Musées / Visites</h4>
+      <a href="https://www.citedelautomobile.com/">Cité de l'automobile</a>
+      <a href="https://www.citedutrain.com/">Cité du train</a>
+      <a href="https://www.zoo-mulhouse.com/">Zoo de Mulhouse</a>
 
-      <div class="second">
-        <img id="student" src="student.jpg" alt="student">
-      </div>
-    </main>
+    </div>
+  </div>
+  </div>
+    <div class="s">
+
+      <img src="culture.png" alt="">
+    </div>
+
+</main>
 <?php
 include_once 'footer.php';
 ?>

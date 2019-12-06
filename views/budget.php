@@ -2,31 +2,38 @@
 include_once 'header.php';
  ?>
 
-<main>
-  <h1>Budget</h1>
-  <p>Tu ne connais pas les aides dont tu pourrais bénéficier ? tu voudrais pouvoir gerer ton budget plus facilement ?   </p>
-  <div class="">
-    <h2>Des applis pour gerer son budget</h2>
+<main class="info">
+  <div class="f">
+    <h2 class="titre">Budget</h2>
+    <p>Tu ne connais pas les aides dont tu pourrais bénéficier ? Tu voudrais pouvoir gérer ton budget plus facilement ?   </p>
     <div class="">
-      <p>si tu es dépensier/ère , que tu a du mal a gerer ton argent , utilise une de ces applications pour t'aider à t'en sortir</p>
-      <a href="https://www.linxo.com/">Linxo</a>
-      <a href="https://bankin.com/">Bankin</a>
+      <h3>Des applis pour gérer son budget</h3>
+      <div class="">
+        <p>Si tu es dépensier/ère , que tu as du mal à gérer ton argent, utilise une de ces applications pour t'aider à t'en sortir.</p>
+        <a href="https://www.linxo.com/">Linxo</a><br>
+        <a href="https://bankin.com/">Bankin</a>
+
+      </div>
+    </div>
+
+
+    <div class="">
+      <h3> Les aides financières étudiantes</h3>
+      <div class="">
+        <p>Ces organismes peuvent te permettre d'obtenir une bourse.</p><br>
+        <a href="https://www.etudiant.gouv.fr/"> La bourse du CROUS</a><br>
+        <a href="http://www.crous-strasbourg.fr/service/pole-accueil-etudiant-mulhouse/"> Le CLOUS de Mulhouse</a>
+
+
+      </div>
 
     </div>
   </div>
 
+<div class="s">
+  <img src="budget.png" alt="">
 
-  <div class="">
-    <h2> Les aides financières étudiantes</h2>
-    <div class="">
-      <p>ces organisment peuvent te permettre d'obtenir une bourse </p>
-      <a href="https://www.etudiant.gouv.fr/"> La bourse du crous </a>
-      <a href="http://www.crous-strasbourg.fr/">Le crous de Strasbourg</a>
-      <a href="http://www.crous-strasbourg.fr/service/pole-accueil-etudiant-mulhouse/"> Le clous de mulhouse </a>
-    
-
-    </div>
-
+</div>
 
 
 </main>

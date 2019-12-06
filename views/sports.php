@@ -1,6 +1,9 @@
 <?php
 include_once 'header.php';
 ?>
+<main class="info">
+  <div class="f">
+
 <h1>Section sport</h1>
 
   <p>Un peu gros mais pas trop ? Envie de perdre quelques kilos ? Viens t'éclater avec d'autres compères dans plein de sports de ta région ☻</p>
@@ -68,9 +71,12 @@ include_once 'header.php';
 
       </script>
 
+    </div>
+<div class="s">
 
-
-
+<img src="sport2.png" alt="" id="sport">
+</div>
+</main>
 <?php
 include_once 'footer.php';
 ?>

@@ -2,14 +2,16 @@
 include_once 'header.php';
  ?>
 
-<main>
+<main class="info">
+  <div class="f">
+
   <h1>Transports</h1>
   <p>Envie de découvrir la région ? Besoin de bouger dans ta ville ? Regarde les transports disponibles pour toi... </p>
   <div class="">
     <h2>Bus,trams...</h2>
     <div class="">
       <p>Voici les services de transports en communs disponibles dans ta ville</p>
-      <a href="https://www.solea.info/">Soléa ( Mulhouse )</a>
+      <br><a href="https://www.solea.info/">Soléa ( Mulhouse )</a><br>
       <a href="https://www.cts-strasbourg.eu/fr">CTS ( Strasbourg )</a>
     </div>
 
@@ -19,8 +21,8 @@ include_once 'header.php';
     <h2>Trains</h2>
     <div class="">
       <p>Jette un oeil ici si tu a besoin d'un billet de train</p>
-      <a href="https://www.sncf.com/fr"> SNCF </a>
-      <a href="https://www.ouigo.com/"> Ouigo </a>
+      <br><a href="https://www.sncf.com/fr"> SNCF </a><br>
+      <br><a href="https://www.ouigo.com/"> Ouigo </a>
     </div>
 
 
@@ -29,7 +31,7 @@ include_once 'header.php';
     <h2>Covoiturage</h2>
     <div class="">
       <p>Si tu préfère la Compagnie en voiture Regardes ici</p>
-      <a href="https://www.blablacar.fr/"> Blablacar </a>
+      <br><a href="https://www.blablacar.fr/"> Blablacar </a>
     </div>
 
 
@@ -38,8 +40,8 @@ include_once 'header.php';
     <h2>Vélos</h2>
     <div class="">
       <p>Si tu es sportif tu peut toujours utiliser le vélo ;)</p>
-      <a href="https://www.compte-mobilite.fr/">A Mulhouse</a>
-      <a href="https://velhop.strasbourg.eu/">A Strasbourg</a>
+      <br><a href="https://www.compte-mobilite.fr/">A Mulhouse</a><br>
+      <br><a href="https://velhop.strasbourg.eu/">A Strasbourg</a>
     </div>
 
 
@@ -73,7 +75,12 @@ include_once 'header.php';
   mapboxgl: mapboxgl
   }));
 </script>
+</div>
 
+<div class="s">
+
+  <img id="tra" src="transport.png" alt="">
+</div>
 </main>
 
 

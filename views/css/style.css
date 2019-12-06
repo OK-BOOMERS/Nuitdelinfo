@@ -1,22 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  /* font-size: 18px; */
+  font-family: 'Alata', sans-serif;
 }
 
-body {
-  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,246,236,1) 39.5%, rgba(100,46,122,0.23) 100.2% ); */
-
-  /* background: #ECE9E6;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background-image: radial-gradient( circle farthest-corner at 7.4% 45.1%,  rgba(236,206,251,1) 0%, rgba(205,237,246,1) 45.1%, rgba(227,251,252,1) 78.4%, rgba(230,247,235,1) 90% ); */
-
-  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,171,0,1) 0%, rgba(255,139,0,1) 90.1% ); */
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+html {
+  /* background-image: radial-gradient( at 100% 100%, #0fbcf9, #fff 30%); */
+  height: 100%;
 }
+
 
 header {
   margin: 0 20px;
@@ -24,17 +16,15 @@ header {
 
 #title {
   margin-left: 20px;
-  color: black;
   letter-spacing: 1px;
-  font-family: 'Fredoka One', cursive;
-  border-bottom: none;
+  font-weight: bold;
 }
 
 li {
   line-height: 50px;
   display: inline-block;
   transition: all 100ms;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 a {
@@ -51,9 +41,12 @@ nav {
   justify-content: space-around;
 }
 
+nav {
+  box-sizing: border-box;
+}
+
 li:hover {
-  color: #18dcff;
-  border-bottom: 2px solid #18dcff;
+  color: #d11834;
 }
 
 p {
@@ -64,14 +57,56 @@ p {
   display: inline-block;
   width: 200px;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 10px;
-  background-color: #eae7e2;
-  /* background-color: #1b4ce7; */
-  /* background-color: white; */
-  /* color: white; */
-
+  box-shadow: 0px 0px 10px #dcdde1;
+  background-color: #ffffff;
+  transition: all 200ms;
+  width: 200px;
+  min-height: 150px;
 }
 
-/*#0abde3*/
-/*#1b4be4*/
+
+.carton:hover {
+  color: white;
+  background-color: #d11834;
+}
+
+#student {
+  width: inherit;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  height: auto;
+  width: 25%;
+}
+
+.first, .second {
+  display: inline-block;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 65vw;
+  margin: 50px 0 0 50px;
+}
+
+.second {
+  width: 30vw;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+}
+
+.rip {
+  position: fixed;
+  top: 120px;
+  right: 50px;
+  transform: rotate(15deg);
+  font-size: 20px;
+  color: #d11834;
+}
