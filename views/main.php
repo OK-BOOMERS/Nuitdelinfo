@@ -7,6 +7,7 @@
         <li><a href="">budget</a></li>
         <li><a href="">logement</a></li>
         <li><a href="">transports</a></li>
+        <li><a href="views/jobs.php">Jobs étudiants</a></li>
         <li><a href="">vie pratique</a></li>
         <li><a href="">santé / bien-être</a></li>
         <li><a href="">culture</a></li>
