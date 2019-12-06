@@ -29,28 +29,23 @@ include_once 'header.php';
             zoom: 12
           });
 
-          var customData = {
-            "features": [
-              {
-                "type":"Features",
-                "properties": {"title": "Palais des sports","description" : "Un lieu pour faire du sport"},
-                "text": "Sport",
-                "geometry":{"coordinates":[7.319185,47.739013],"type": "Point"}
-              },
-              {
-                "type":"Features",
-                "properties": {"title": "Basic fit 🏋","description" : "Salle de musculation"},
-                "text": "Sport",
-                "geometry":{"coordinates":[7.2880185,47.7372577],"type": "Point"}
-              },
-              {
-                "type":"Features",
-                "properties": {"title": "Patinoire de Mulhouse ⛸","description" : "Slider comme un chef"},
-                "text": "Sport",
-                "geometry":{"coordinates":[7.320280,47.736092],"type": "Point"}
-              }
-            ]
-            };
+          function addFeature(title,description,long,lat){
+            var temp = {
+              "type":"Features",
+              "properties": {"title": title,"description" : description},
+              "text": "Sport",
+              "geometry":{"coordinates":[long,lat],"type": "Point"}
+            }
+            customData.features.push(temp);
+          }
+
+          var customData = {"features": []};
+          addFeature("Centre Sportif Régional d'Alsace","Complexe sportif",7.316633,47.731387);
+          addFeature("Piscine de l'illberg","Nager comme un poisson",7.320682,47.735015);
+          addFeature("Patinoire de Mulhouse ⛸","Slider comme un chef",7.320280,47.736092);
+          addFeature("Basic fit 🏋","Salle de musculation",7.2880185,47.7372577);
+          addFeature("Palais des sports","Un lieu pour faire du sport",7.319185,47.739013);
+
           function forwardGeocoder(query) {
             var matchingFeatures = [];
             for (var i = 0; i < customData.features.length; i++) {
