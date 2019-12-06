@@ -17,7 +17,7 @@
       <li><a href="transport.php">transports</a></li>
       <li><a href="">vie pratique</a></li>
       <li><a href="santeBienEtre.php">santé / bien-être</a></li>
-      <li><a href="">culture</a></li>
+      <li><a href="culture.php">culture</a></li>
       <li><a href="sports.php">sports</a></li>
       <li><a href="">vie associative</a></li>
     </nav>
