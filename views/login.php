@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<?php
+include_once 'header.php';
+ ?>
 
 <?php
 include_once 'fonctions.php';
@@ -10,7 +13,7 @@ include_once 'fonctions.php';
   <head>
     <meta charset="utf-8">
     <title>login</title>
-    <link href="styles.css?t=<? echo time(); ?>" rel = "stylesheet" src ="style.css">
+    <link href="style0.css" rel = "stylesheet" src ="style0.css">
     <a href="#"></a>
   </head>
   <body>

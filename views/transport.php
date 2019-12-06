@@ -5,10 +5,12 @@ include_once 'header.php';
 <main class="info">
   <div class="f">
 
-  <h1>Transports</h1>
+  <h2>Transports</h2>
+  <div id="trait"></div>
+
   <p>Envie de découvrir la région ? Besoin de bouger dans ta ville ? Regarde les transports disponibles pour toi... </p>
   <div class="">
-    <h2>Bus,trams...</h2>
+    <h3>Bus,trams...</h3>
     <div class="">
       <p>Voici les services de transports en communs disponibles dans ta ville</p>
       <br><a href="https://www.solea.info/">Soléa ( Mulhouse )</a><br>
@@ -18,7 +20,7 @@ include_once 'header.php';
 
   </div>
   <div class="">
-    <h2>Trains</h2>
+    <h3>Trains</h3>
     <div class="">
       <p>Jette un oeil ici si tu a besoin d'un billet de train</p>
       <br><a href="https://www.sncf.com/fr"> SNCF </a><br>
@@ -28,18 +30,18 @@ include_once 'header.php';
 
   </div>
   <div class="">
-    <h2>Covoiturage</h2>
+    <h3>Covoiturage</h3>
     <div class="">
-      <p>Si tu préfère la Compagnie en voiture Regardes ici</p>
+      <p>Si tu préfère la compagnie en voiture regardes ici</p>
       <br><a href="https://www.blablacar.fr/"> Blablacar </a>
     </div>
 
 
   </div>
   <div class="">
-    <h2>Vélos</h2>
+    <h3>Vélos</h3>
     <div class="">
-      <p>Si tu es sportif tu peut toujours utiliser le vélo ;)</p>
+      <p>Si tu es sportif tu peut toujours utiliser le vélo !</p>
       <br><a href="https://www.compte-mobilite.fr/">A Mulhouse</a><br>
       <br><a href="https://velhop.strasbourg.eu/">A Strasbourg</a>
     </div>
@@ -47,13 +49,15 @@ include_once 'header.php';
 
   </div>
   <div class="">
-    <h2>Cars</h2>
+    <h3>Cars</h3>
     <div class="">
-      <p>Pour les longs trajets pas trop chers regarde ici </p>
+      <p>Pour les longs trajets pas trop chers en car  regarde ici </p>
       <a href="https://fr.ouibus.com/"> Ouibus </a>
       <a href="https://www.flixbus.fr/"> Flixbus </a>
     </div>
   </div>
+
+  <p> Et si tu as besoin , voici les gares à proximité d'ici :</p>
 
   <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css' type='text/css' />

@@ -5,6 +5,8 @@ include_once 'header.php';
 <main class="info">
   <div class="f">
     <h2 class="titre">Budget</h2>
+    <div id="trait"></div>
+    
     <p>Tu ne connais pas les aides dont tu pourrais bénéficier ? Tu voudrais pouvoir gérer ton budget plus facilement ?   </p>
     <div class="">
       <h3>Des applis pour gérer son budget</h3>

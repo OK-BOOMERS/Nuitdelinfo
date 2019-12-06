@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-<link href="styles.css?t=<? echo time(); ?>" rel = "stylesheet" src ="style.css">
+<link href="style0.css" rel = "stylesheet" src ="style0.css">
   </head>
   <body>
     <?php

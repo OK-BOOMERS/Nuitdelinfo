@@ -6,6 +6,8 @@ include_once 'header.php';
 <div class="f">
 
 <h2>Trouve un  job étudiant !</h2>
+<div id="trait"></div>
+
 
   <p>Que ce soit pour payer ton loyer ou tes soirées, un job étudiant est une source de financement intéressante.</p>
   <p>Retrouve ici quelques pistes pour trouver un boulot rapidement.</p>

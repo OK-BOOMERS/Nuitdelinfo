@@ -35,7 +35,7 @@ include_once 'header.php' ?>
             <div class="carton pratique quatre">
               <h2>vie pratique</h2>
               <div class="">
-
+                <p>Quelques insformations qui peuvent être utiles dans ta vie étudiante à Mulhouse</p>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ include_once 'header.php' ?>
             <div class="carton job huit">
               <h2>jobs</h2>
               <div class="">
-
+                <p>Trouve un  job étudiant !</p>
               </div>
             </div>
           </div>

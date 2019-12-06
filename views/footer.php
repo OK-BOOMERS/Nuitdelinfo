@@ -1,5 +1,5 @@
 <footer>
-  Site designé par ~7 glandus.
+  Réalisé par le groupe OkBoomer.
 </footer>
 </body>
 </html>

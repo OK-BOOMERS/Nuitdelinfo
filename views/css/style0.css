@@ -70,6 +70,7 @@ p {
 .carton:hover {
   color: white;
   background-color: #d11834;
+  cursor: default;
 }
 
 #student {
@@ -161,4 +162,17 @@ footer {
   bottom: -50px;
   right: 0;
   width: 30%;
+}
+
+#trait {
+  height: 2px;
+  width: 250px;
+  background-color: #d11834;
+  margin: auto;
+  margin-bottom: 18px;
+}
+
+.form-control{
+  border:none;
+  border-bottom : 1px solid red;
 }

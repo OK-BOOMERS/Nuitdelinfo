@@ -6,12 +6,15 @@ include_once 'header.php';
   <div class="f">
 
   <h2>Vie Pratique</h2>
-  <p>Quelques insformations qui peuvent être utiles</p>
+<div id="trait"></div>
+
+  <p>Quelques insformations qui peuvent être utiles dans ta vie étudiante à Mulhouse</p>
 
   <div class="">
     <h3>Izly</h3>
     <div class="">
-      <p>Ton moyen de paiement avec ta carte étudiante</p>
+      <p>Ton moyen de paiement avec ta carte étudiante</p><br>
+      <p>Cela te permet de payer tes repas au restaurant universitaire</p>
       <br><a href="http://www.izly.fr/"> Izly </a>
     </div>
   </div>

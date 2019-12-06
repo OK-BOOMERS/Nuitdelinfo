@@ -6,10 +6,12 @@ include_once 'header.php';
 <main class="info">
   <div class="f">
 
-  <h1>Culture</h1>
+  <h2>Culture</h2>
+  <div id="trait"></div>
+
   <p>Pour souffler entre les révisions, sortir entre amis, apprendre. Plein de bonnes excuses pour faire passer le temps </p>
   <div class="">
-    <h2>Office de tourisme</h2>
+    <h3>Office de tourisme</h3>
     <div class="">
       <a href="https://www.tourisme-mulhouse.com/">Mulhouse</a>
     </div>
@@ -17,11 +19,11 @@ include_once 'header.php';
 
   </div>
   <div class="">
-    <h2>Activitées principales</h2>
+    <h3>Activitées principales</h3>
     <div class="">
       <h4>Les cinémas</h4>
       <a href="https://kinepolis.fr/cinemas/kinepolis-mulhouse/infos"> Kinepolis Mulhouse</a>
-      <a href="https://www.ouigo.com/"> Le Palace Mulhouse  </a>
+      <a href="https://www.lepalacemulhouse.com/films-a-l-affich"> Le Palace Mulhouse  </a>
       <h4>Musées / Visites</h4>
       <a href="https://www.citedelautomobile.com/">Cité de l'automobile</a>
       <a href="https://www.citedutrain.com/">Cité du train</a>

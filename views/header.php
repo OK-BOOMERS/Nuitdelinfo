@@ -11,6 +11,7 @@
   <header>
     <li id="title"><a href="main.php">Au Hasard.</a></li>
     <nav>
+      <li><a href="login.php">Connexion</a></li>
       <li><a href="budget.php">budget</a></li>
       <li><a href="logement.php">logement</a></li>
       <li><a href="transport.php">transports</a></li>

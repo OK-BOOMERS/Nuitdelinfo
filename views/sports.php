@@ -4,17 +4,19 @@ include_once 'header.php';
 <main class="info">
   <div class="f">
 
-<h1>Section sport</h1>
+<h2>Section sport</h2>
+<div id="trait"></div>
+
 
   <p>Un peu gros mais pas trop ? Envie de perdre quelques kilos ? Viens t'éclater avec d'autres compères dans plein de sports de ta région ☻</p>
   <p>La pratique du sport est essentielle pour la réussite de ses études. Elle permet l'évasion du stress éventuel, permet de rencontrer de nouvelles connaissances tout en s'amusant.</p>
   <p>Pour les plus motivés, la pratique du sport en compétitions est aussi disponible !</p>
 
-  <h2>Du côté de Strasbourg ?</h2>
+  <h3>Du côté de Strasbourg ?</h3>
   <a href="https://www.strasbourg.eu/activites-sportives-proposees">Pratique sportive près de Strasbourg</a>
 
 
-  <h2>Dans la région de Mulhouse ?</h2>
+  <h3>Dans la région de Mulhouse ?</h3>
   <p>Découvre les différents sports en clubs ou avec les associations étudiantes</p>
   <a href="https://www.mulhouse.fr/bouger-sortir/sport/pratiques-sportives-ouvertes/">Faire du sport à Mulhouse</a>
   <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
